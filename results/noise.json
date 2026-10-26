@@ -1,0 +1,21 @@
+{
+ "n_tokens": 25109,
+ "bins": {
+  "5-10": {
+   "n": 5562,
+   "noise_over_spread": 0.4054
+  },
+  "10-100": {
+   "n": 15770,
+   "noise_over_spread": 0.2145
+  },
+  "100-1000": {
+   "n": 3514,
+   "noise_over_spread": 0.0785
+  },
+  "1000-max": {
+   "n": 263,
+   "noise_over_spread": 0.0235
+  }
+ }
+}

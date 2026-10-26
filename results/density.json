@@ -1,0 +1,2165 @@
+{
+ "gap_16": [
+  -0.0215,
+  -0.0368,
+  -0.1157,
+  -0.0623,
+  0.02,
+  -0.0064,
+  0.0293,
+  -0.0078,
+  0.0158,
+  0.0325,
+  0.0529,
+  0.0023
+ ],
+ "gap_wide": {
+  "32": [
+   -0.0322,
+   -0.0437,
+   -0.1168,
+   -0.042,
+   0.021,
+   -0.0087,
+   0.0398,
+   -0.0217,
+   0.0156,
+   0.0312,
+   0.0561,
+   -0.0007
+  ],
+  "64": [
+   -0.0462,
+   -0.0426,
+   -0.1084,
+   -0.0245,
+   0.0293,
+   -0.0057,
+   0.0335,
+   -0.0259,
+   0.0043,
+   0.0205,
+   0.0527,
+   -0.0043
+  ],
+  "128": [
+   -0.0493,
+   -0.0353,
+   -0.086,
+   -0.0057,
+   0.0454,
+   0.006,
+   0.0409,
+   -0.0234,
+   0.0004,
+   0.0148,
+   0.0499,
+   -0.0081
+  ]
+ },
+ "translation": [
+  {
+   "raw_gap": -0.0229,
+   "centred_gap": -0.0619,
+   "share": 0.789
+  },
+  {
+   "raw_gap": -0.0382,
+   "centred_gap": -0.1325,
+   "share": 0.757
+  },
+  {
+   "raw_gap": -0.1153,
+   "centred_gap": -0.2083,
+   "share": 0.39
+  },
+  {
+   "raw_gap": -0.0584,
+   "centred_gap": -0.0757,
+   "share": 0.082
+  },
+  {
+   "raw_gap": 0.0195,
+   "centred_gap": 0.0313,
+   "share": 0.548
+  },
+  {
+   "raw_gap": -0.0051,
+   "centred_gap": -0.0231,
+   "share": 0.838
+  },
+  {
+   "raw_gap": 0.0314,
+   "centred_gap": 0.0554,
+   "share": 0.576
+  },
+  {
+   "raw_gap": -0.0142,
+   "centred_gap": -0.0345,
+   "share": 0.787
+  },
+  {
+   "raw_gap": 0.0196,
+   "centred_gap": 0.028,
+   "share": 0.861
+  },
+  {
+   "raw_gap": 0.0318,
+   "centred_gap": 0.039,
+   "share": 0.755
+  },
+  {
+   "raw_gap": 0.0441,
+   "centred_gap": 0.0727,
+   "share": 0.592
+  },
+  {
+   "raw_gap": 0.0015,
+   "centred_gap": 0.0441,
+   "share": 0.991
+  }
+ ],
+ "ou_control": {
+  "gap": 0.8979,
+  "translated_gap": 0.4179,
+  "translated_centred_gap": 0.8979
+ },
+ "gap_410m": [
+  -0.0614,
+  -0.0225,
+  -0.0313,
+  -0.0243,
+  0.0262,
+  -0.0332,
+  0.0073,
+  0.0525,
+  0.0355,
+  0.0524,
+  0.0228,
+  0.0694,
+  -0.0074,
+  -0.0481,
+  0.0889,
+  0.0128,
+  -0.0234,
+  -0.0377,
+  -0.0416,
+  -0.105,
+  -0.0728,
+  0.0166,
+  0.0121,
+  -0.0856
+ ],
+ "sign_test": {
+  "16": [
+   {
+    "increment": {
+     "pos": 0.4345,
+     "pos_null": 0.4832,
+     "cos_gap": -0.0242,
+     "cos_gap_D": -0.0243
+    },
+    "increment_centred": {
+     "pos": 0.3993,
+     "pos_null": 0.4887,
+     "cos_gap": -0.0537,
+     "cos_gap_D": -0.0572
+    },
+    "drift": {
+     "pos": 0.4553,
+     "pos_null": 0.4759,
+     "cos_gap": -0.0116,
+     "cos_gap_D": -0.0175
+    },
+    "drift_centred": {
+     "pos": 0.4246,
+     "pos_null": 0.5012,
+     "cos_gap": -0.0512,
+     "cos_gap_D": -0.0633
+    }
+   },
+   {
+    "increment": {
+     "pos": 0.4683,
+     "pos_null": 0.5196,
+     "cos_gap": -0.0378,
+     "cos_gap_D": -0.0166
+    },
+    "increment_centred": {
+     "pos": 0.3023,
+     "pos_null": 0.4962,
+     "cos_gap": -0.1245,
+     "cos_gap_D": -0.0685
+    },
+    "drift": {
+     "pos": 0.4943,
+     "pos_null": 0.5174,
+     "cos_gap": -0.0185,
+     "cos_gap_D": -0.0033
+    },
+    "drift_centred": {
+     "pos": 0.3601,
+     "pos_null": 0.5032,
+     "cos_gap": -0.0921,
+     "cos_gap_D": -0.0277
+    }
+   },
+   {
+    "increment": {
+     "pos": 0.3411,
+     "pos_null": 0.4895,
+     "cos_gap": -0.109,
+     "cos_gap_D": -0.0683
+    },
+    "increment_centred": {
+     "pos": 0.2242,
+     "pos_null": 0.4968,
+     "cos_gap": -0.1989,
+     "cos_gap_D": -0.1173
+    },
+    "drift": {
+     "pos": 0.4187,
+     "pos_null": 0.4915,
+     "cos_gap": -0.0553,
+     "cos_gap_D": -0.0316
+    },
+    "drift_centred": {
+     "pos": 0.3156,
+     "pos_null": 0.498,
+     "cos_gap": -0.1301,
+     "cos_gap_D": -0.0757
+    }
+   },
+   {
+    "increment": {
+     "pos": 0.3973,
+     "pos_null": 0.4755,
+     "cos_gap": -0.0624,
+     "cos_gap_D": -0.2082
+    },
+    "increment_centred": {
+     "pos": 0.4034,
+     "pos_null": 0.5069,
+     "cos_gap": -0.0772,
+     "cos_gap_D": -0.2834
+    },
+    "drift": {
+     "pos": 0.372,
+     "pos_null": 0.4725,
+     "cos_gap": -0.0751,
+     "cos_gap_D": -0.238
+    },
+    "drift_centred": {
+     "pos": 0.4141,
+     "pos_null": 0.5087,
+     "cos_gap": -0.0725,
+     "cos_gap_D": -0.2433
+    }
+   },
+   {
+    "increment": {
+     "pos": 0.4885,
+     "pos_null": 0.4632,
+     "cos_gap": 0.0188,
+     "cos_gap_D": 0.0044
+    },
+    "increment_centred": {
+     "pos": 0.5495,
+     "pos_null": 0.5079,
+     "cos_gap": 0.0297,
+     "cos_gap_D": 0.0087
+    },
+    "drift": {
+     "pos": 0.4547,
+     "pos_null": 0.4668,
+     "cos_gap": -0.0048,
+     "cos_gap_D": -0.0054
+    },
+    "drift_centred": {
+     "pos": 0.4941,
+     "pos_null": 0.5053,
+     "cos_gap": -0.0104,
+     "cos_gap_D": -0.0225
+    }
+   },
+   {
+    "increment": {
+     "pos": 0.4523,
+     "pos_null": 0.4652,
+     "cos_gap": -0.0076,
+     "cos_gap_D": -0.0193
+    },
+    "increment_centred": {
+     "pos": 0.4567,
+     "pos_null": 0.5057,
+     "cos_gap": -0.0303,
+     "cos_gap_D": -0.0484
+    },
+    "drift": {
+     "pos": 0.4503,
+     "pos_null": 0.4662,
+     "cos_gap": -0.0073,
+     "cos_gap_D": -0.0016
+    },
+    "drift_centred": {
+     "pos": 0.4517,
+     "pos_null": 0.504,
+     "cos_gap": -0.0334,
+     "cos_gap_D": 0.014
+    }
+   },
+   {
+    "increment": {
+     "pos": 0.519,
+     "pos_null": 0.4632,
+     "cos_gap": 0.0364,
+     "cos_gap_D": 0.0451
+    },
+    "increment_centred": {
+     "pos": 0.5712,
+     "pos_null": 0.5053,
+     "cos_gap": 0.0447,
+     "cos_gap_D": 0.0623
+    },
+    "drift": {
+     "pos": 0.4881,
+     "pos_null": 0.4709,
+     "cos_gap": 0.0128,
+     "cos_gap_D": 0.0172
+    },
+    "drift_centred": {
+     "pos": 0.522,
+     "pos_null": 0.5148,
+     "cos_gap": 0.0126,
+     "cos_gap_D": 0.0259
+    }
+   },
+   {
+    "increment": {
+     "pos": 0.44,
+     "pos_null": 0.4529,
+     "cos_gap": -0.0132,
+     "cos_gap_D": -0.0055
+    },
+    "increment_centred": {
+     "pos": 0.4602,
+     "pos_null": 0.5063,
+     "cos_gap": -0.0284,
+     "cos_gap_D": -0.022
+    },
+    "drift": {
+     "pos": 0.4507,
+     "pos_null": 0.446,
+     "cos_gap": -0.0009,
+     "cos_gap_D": 0.006
+    },
+    "drift_centred": {
+     "pos": 0.4915,
+     "pos_null": 0.5006,
+     "cos_gap": -0.0078,
+     "cos_gap_D": 0.0148
+    }
+   },
+   {
+    "increment": {
+     "pos": 0.5408,
+     "pos_null": 0.5249,
+     "cos_gap": 0.0161,
+     "cos_gap_D": 0.0233
+    },
+    "increment_centred": {
+     "pos": 0.537,
+     "pos_null": 0.5014,
+     "cos_gap": 0.0242,
+     "cos_gap_D": 0.0699
+    },
+    "drift": {
+     "pos": 0.5305,
+     "pos_null": 0.5162,
+     "cos_gap": 0.0089,
+     "cos_gap_D": 0.0138
+    },
+    "drift_centred": {
+     "pos": 0.5241,
+     "pos_null": 0.501,
+     "cos_gap": 0.0129,
+     "cos_gap_D": 0.0311
+    }
+   },
+   {
+    "increment": {
+     "pos": 0.5625,
+     "pos_null": 0.5307,
+     "cos_gap": 0.0272,
+     "cos_gap_D": 0.0579
+    },
+    "increment_centred": {
+     "pos": 0.5637,
+     "pos_null": 0.503,
+     "cos_gap": 0.043,
+     "cos_gap_D": 0.122
+    },
+    "drift": {
+     "pos": 0.5552,
+     "pos_null": 0.5259,
+     "cos_gap": 0.02,
+     "cos_gap_D": 0.0426
+    },
+    "drift_centred": {
+     "pos": 0.5637,
+     "pos_null": 0.4992,
+     "cos_gap": 0.039,
+     "cos_gap_D": 0.119
+    }
+   },
+   {
+    "increment": {
+     "pos": 0.5966,
+     "pos_null": 0.5222,
+     "cos_gap": 0.0461,
+     "cos_gap_D": 0.0597
+    },
+    "increment_centred": {
+     "pos": 0.6207,
+     "pos_null": 0.5018,
+     "cos_gap": 0.0784,
+     "cos_gap_D": 0.0978
+    },
+    "drift": {
+     "pos": 0.5687,
+     "pos_null": 0.5198,
+     "cos_gap": 0.0353,
+     "cos_gap_D": 0.0492
+    },
+    "drift_centred": {
+     "pos": 0.5888,
+     "pos_null": 0.4889,
+     "cos_gap": 0.0664,
+     "cos_gap_D": 0.0924
+    }
+   },
+   {
+    "increment": {
+     "pos": 0.5075,
+     "pos_null": 0.5047,
+     "cos_gap": 0.0023,
+     "cos_gap_D": 0.0002
+    },
+    "increment_centred": {
+     "pos": 0.5647,
+     "pos_null": 0.5042,
+     "cos_gap": 0.0429,
+     "cos_gap_D": 0.0153
+    },
+    "drift": {
+     "pos": 0.5103,
+     "pos_null": 0.5051,
+     "cos_gap": 0.0021,
+     "cos_gap_D": -0.0013
+    },
+    "drift_centred": {
+     "pos": 0.588,
+     "pos_null": 0.4986,
+     "cos_gap": 0.0603,
+     "cos_gap_D": 0.0107
+    }
+   }
+  ],
+  "32": [
+   {
+    "increment": {
+     "pos": 0.4139,
+     "pos_null": 0.4776,
+     "cos_gap": -0.0306,
+     "cos_gap_D": -0.0289
+    },
+    "increment_centred": {
+     "pos": 0.3558,
+     "pos_null": 0.4917,
+     "cos_gap": -0.0638,
+     "cos_gap_D": -0.0622
+    },
+    "drift": {
+     "pos": 0.4503,
+     "pos_null": 0.4757,
+     "cos_gap": -0.0118,
+     "cos_gap_D": -0.0142
+    },
+    "drift_centred": {
+     "pos": 0.4185,
+     "pos_null": 0.5026,
+     "cos_gap": -0.039,
+     "cos_gap_D": -0.0424
+    }
+   },
+   {
+    "increment": {
+     "pos": 0.4321,
+     "pos_null": 0.5091,
+     "cos_gap": -0.0446,
+     "cos_gap_D": -0.0136
+    },
+    "increment_centred": {
+     "pos": 0.2321,
+     "pos_null": 0.4927,
+     "cos_gap": -0.1404,
+     "cos_gap_D": -0.0709
+    },
+    "drift": {
+     "pos": 0.4842,
+     "pos_null": 0.5113,
+     "cos_gap": -0.018,
+     "cos_gap_D": 0.0001
+    },
+    "drift_centred": {
+     "pos": 0.3364,
+     "pos_null": 0.501,
+     "cos_gap": -0.0875,
+     "cos_gap_D": -0.025
+    }
+   },
+   {
+    "increment": {
+     "pos": 0.2903,
+     "pos_null": 0.4828,
+     "cos_gap": -0.1142,
+     "cos_gap_D": -0.0966
+    },
+    "increment_centred": {
+     "pos": 0.1682,
+     "pos_null": 0.5024,
+     "cos_gap": -0.1996,
+     "cos_gap_D": -0.1553
+    },
+    "drift": {
+     "pos": 0.4108,
+     "pos_null": 0.4852,
+     "cos_gap": -0.0468,
+     "cos_gap_D": -0.0357
+    },
+    "drift_centred": {
+     "pos": 0.2952,
+     "pos_null": 0.5047,
+     "cos_gap": -0.1123,
+     "cos_gap_D": -0.0861
+    }
+   },
+   {
+    "increment": {
+     "pos": 0.4216,
+     "pos_null": 0.4909,
+     "cos_gap": -0.0409,
+     "cos_gap_D": -0.1875
+    },
+    "increment_centred": {
+     "pos": 0.4201,
+     "pos_null": 0.5012,
+     "cos_gap": -0.0545,
+     "cos_gap_D": -0.2721
+    },
+    "drift": {
+     "pos": 0.4052,
+     "pos_null": 0.486,
+     "cos_gap": -0.0491,
+     "cos_gap_D": -0.1992
+    },
+    "drift_centred": {
+     "pos": 0.4199,
+     "pos_null": 0.5028,
+     "cos_gap": -0.0544,
+     "cos_gap_D": -0.2279
+    }
+   },
+   {
+    "increment": {
+     "pos": 0.4964,
+     "pos_null": 0.4628,
+     "cos_gap": 0.0203,
+     "cos_gap_D": -0.0019
+    },
+    "increment_centred": {
+     "pos": 0.5633,
+     "pos_null": 0.5085,
+     "cos_gap": 0.0323,
+     "cos_gap_D": -0.0037
+    },
+    "drift": {
+     "pos": 0.4466,
+     "pos_null": 0.4677,
+     "cos_gap": -0.007,
+     "cos_gap_D": -0.0109
+    },
+    "drift_centred": {
+     "pos": 0.4769,
+     "pos_null": 0.5059,
+     "cos_gap": -0.0154,
+     "cos_gap_D": -0.0335
+    }
+   },
+   {
+    "increment": {
+     "pos": 0.4495,
+     "pos_null": 0.4743,
+     "cos_gap": -0.0101,
+     "cos_gap_D": -0.0256
+    },
+    "increment_centred": {
+     "pos": 0.4408,
+     "pos_null": 0.5091,
+     "cos_gap": -0.0349,
+     "cos_gap_D": -0.06
+    },
+    "drift": {
+     "pos": 0.4535,
+     "pos_null": 0.4727,
+     "cos_gap": -0.0095,
+     "cos_gap_D": -0.0061
+    },
+    "drift_centred": {
+     "pos": 0.4052,
+     "pos_null": 0.4937,
+     "cos_gap": -0.0412,
+     "cos_gap_D": -0.0086
+    }
+   },
+   {
+    "increment": {
+     "pos": 0.535,
+     "pos_null": 0.4634,
+     "cos_gap": 0.0378,
+     "cos_gap_D": 0.0452
+    },
+    "increment_centred": {
+     "pos": 0.5855,
+     "pos_null": 0.5069,
+     "cos_gap": 0.0463,
+     "cos_gap_D": 0.0616
+    },
+    "drift": {
+     "pos": 0.4951,
+     "pos_null": 0.481,
+     "cos_gap": 0.0089,
+     "cos_gap_D": 0.0086
+    },
+    "drift_centred": {
+     "pos": 0.5131,
+     "pos_null": 0.5156,
+     "cos_gap": 0.0096,
+     "cos_gap_D": 0.017
+    }
+   },
+   {
+    "increment": {
+     "pos": 0.4123,
+     "pos_null": 0.4602,
+     "cos_gap": -0.0264,
+     "cos_gap_D": -0.0226
+    },
+    "increment_centred": {
+     "pos": 0.4127,
+     "pos_null": 0.5002,
+     "cos_gap": -0.0505,
+     "cos_gap_D": -0.0471
+    },
+    "drift": {
+     "pos": 0.4454,
+     "pos_null": 0.4604,
+     "cos_gap": -0.0053,
+     "cos_gap_D": 0.0046
+    },
+    "drift_centred": {
+     "pos": 0.4644,
+     "pos_null": 0.499,
+     "cos_gap": -0.0186,
+     "cos_gap_D": 0.0168
+    }
+   },
+   {
+    "increment": {
+     "pos": 0.5556,
+     "pos_null": 0.5247,
+     "cos_gap": 0.0191,
+     "cos_gap_D": 0.0299
+    },
+    "increment_centred": {
+     "pos": 0.5144,
+     "pos_null": 0.4937,
+     "cos_gap": 0.0137,
+     "cos_gap_D": 0.0579
+    },
+    "drift": {
+     "pos": 0.5483,
+     "pos_null": 0.52,
+     "cos_gap": 0.0108,
+     "cos_gap_D": 0.0232
+    },
+    "drift_centred": {
+     "pos": 0.5168,
+     "pos_null": 0.4877,
+     "cos_gap": 0.0128,
+     "cos_gap_D": 0.038
+    }
+   },
+   {
+    "increment": {
+     "pos": 0.5671,
+     "pos_null": 0.5091,
+     "cos_gap": 0.0343,
+     "cos_gap_D": 0.0641
+    },
+    "increment_centred": {
+     "pos": 0.573,
+     "pos_null": 0.5087,
+     "cos_gap": 0.0451,
+     "cos_gap_D": 0.129
+    },
+    "drift": {
+     "pos": 0.5483,
+     "pos_null": 0.5129,
+     "cos_gap": 0.0235,
+     "cos_gap_D": 0.0411
+    },
+    "drift_centred": {
+     "pos": 0.5726,
+     "pos_null": 0.499,
+     "cos_gap": 0.0384,
+     "cos_gap_D": 0.1014
+    }
+   },
+   {
+    "increment": {
+     "pos": 0.6254,
+     "pos_null": 0.5404,
+     "cos_gap": 0.0536,
+     "cos_gap_D": 0.0593
+    },
+    "increment_centred": {
+     "pos": 0.662,
+     "pos_null": 0.4974,
+     "cos_gap": 0.0908,
+     "cos_gap_D": 0.1071
+    },
+    "drift": {
+     "pos": 0.5857,
+     "pos_null": 0.5277,
+     "cos_gap": 0.0341,
+     "cos_gap_D": 0.0385
+    },
+    "drift_centred": {
+     "pos": 0.6074,
+     "pos_null": 0.486,
+     "cos_gap": 0.0639,
+     "cos_gap_D": 0.0894
+    }
+   },
+   {
+    "increment": {
+     "pos": 0.5208,
+     "pos_null": 0.521,
+     "cos_gap": -0.0001,
+     "cos_gap_D": 0.0003
+    },
+    "increment_centred": {
+     "pos": 0.4911,
+     "pos_null": 0.5113,
+     "cos_gap": -0.0,
+     "cos_gap_D": 0.0171
+    },
+    "drift": {
+     "pos": 0.5259,
+     "pos_null": 0.523,
+     "cos_gap": 0.0012,
+     "cos_gap_D": -0.0009
+    },
+    "drift_centred": {
+     "pos": 0.5528,
+     "pos_null": 0.4994,
+     "cos_gap": 0.035,
+     "cos_gap_D": 0.0102
+    }
+   }
+  ],
+  "64": [
+   {
+    "increment": {
+     "pos": 0.3441,
+     "pos_null": 0.4759,
+     "cos_gap": -0.0426,
+     "cos_gap_D": -0.0324
+    },
+    "increment_centred": {
+     "pos": 0.2511,
+     "pos_null": 0.4885,
+     "cos_gap": -0.0843,
+     "cos_gap_D": -0.0642
+    },
+    "drift": {
+     "pos": 0.4355,
+     "pos_null": 0.4759,
+     "cos_gap": -0.0116,
+     "cos_gap_D": -0.0101
+    },
+    "drift_centred": {
+     "pos": 0.3995,
+     "pos_null": 0.5046,
+     "cos_gap": -0.0337,
+     "cos_gap_D": -0.0313
+    }
+   },
+   {
+    "increment": {
+     "pos": 0.4131,
+     "pos_null": 0.514,
+     "cos_gap": -0.0447,
+     "cos_gap_D": -0.0158
+    },
+    "increment_centred": {
+     "pos": 0.2018,
+     "pos_null": 0.4956,
+     "cos_gap": -0.1266,
+     "cos_gap_D": -0.0669
+    },
+    "drift": {
+     "pos": 0.4761,
+     "pos_null": 0.5111,
+     "cos_gap": -0.0149,
+     "cos_gap_D": 0.0039
+    },
+    "drift_centred": {
+     "pos": 0.329,
+     "pos_null": 0.5073,
+     "cos_gap": -0.0698,
+     "cos_gap_D": -0.0097
+    }
+   },
+   {
+    "increment": {
+     "pos": 0.2473,
+     "pos_null": 0.4806,
+     "cos_gap": -0.1051,
+     "cos_gap_D": -0.0963
+    },
+    "increment_centred": {
+     "pos": 0.1336,
+     "pos_null": 0.5046,
+     "cos_gap": -0.1799,
+     "cos_gap_D": -0.1465
+    },
+    "drift": {
+     "pos": 0.4007,
+     "pos_null": 0.4848,
+     "cos_gap": -0.0385,
+     "cos_gap_D": -0.0289
+    },
+    "drift_centred": {
+     "pos": 0.279,
+     "pos_null": 0.5012,
+     "cos_gap": -0.0885,
+     "cos_gap_D": -0.0729
+    }
+   },
+   {
+    "increment": {
+     "pos": 0.4501,
+     "pos_null": 0.5008,
+     "cos_gap": -0.0258,
+     "cos_gap_D": -0.1772
+    },
+    "increment_centred": {
+     "pos": 0.4357,
+     "pos_null": 0.4933,
+     "cos_gap": -0.034,
+     "cos_gap_D": -0.2635
+    },
+    "drift": {
+     "pos": 0.4264,
+     "pos_null": 0.5028,
+     "cos_gap": -0.0363,
+     "cos_gap_D": -0.1737
+    },
+    "drift_centred": {
+     "pos": 0.4159,
+     "pos_null": 0.4881,
+     "cos_gap": -0.0412,
+     "cos_gap_D": -0.2321
+    }
+   },
+   {
+    "increment": {
+     "pos": 0.536,
+     "pos_null": 0.4569,
+     "cos_gap": 0.0295,
+     "cos_gap_D": 0.0004
+    },
+    "increment_centred": {
+     "pos": 0.6096,
+     "pos_null": 0.5158,
+     "cos_gap": 0.0456,
+     "cos_gap_D": -0.0012
+    },
+    "drift": {
+     "pos": 0.4499,
+     "pos_null": 0.4584,
+     "cos_gap": -0.0037,
+     "cos_gap_D": -0.011
+    },
+    "drift_centred": {
+     "pos": 0.4844,
+     "pos_null": 0.5091,
+     "cos_gap": -0.0091,
+     "cos_gap_D": -0.0353
+    }
+   },
+   {
+    "increment": {
+     "pos": 0.4533,
+     "pos_null": 0.4792,
+     "cos_gap": -0.0069,
+     "cos_gap_D": -0.0372
+    },
+    "increment_centred": {
+     "pos": 0.4529,
+     "pos_null": 0.4962,
+     "cos_gap": -0.0163,
+     "cos_gap_D": -0.0818
+    },
+    "drift": {
+     "pos": 0.4501,
+     "pos_null": 0.4717,
+     "cos_gap": -0.0069,
+     "cos_gap_D": -0.009
+    },
+    "drift_centred": {
+     "pos": 0.4159,
+     "pos_null": 0.4958,
+     "cos_gap": -0.0246,
+     "cos_gap_D": -0.0256
+    }
+   },
+   {
+    "increment": {
+     "pos": 0.5358,
+     "pos_null": 0.4725,
+     "cos_gap": 0.0324,
+     "cos_gap_D": 0.0233
+    },
+    "increment_centred": {
+     "pos": 0.5694,
+     "pos_null": 0.5081,
+     "cos_gap": 0.0379,
+     "cos_gap_D": 0.0303
+    },
+    "drift": {
+     "pos": 0.4885,
+     "pos_null": 0.481,
+     "cos_gap": 0.0057,
+     "cos_gap_D": 0.0031
+    },
+    "drift_centred": {
+     "pos": 0.5012,
+     "pos_null": 0.5099,
+     "cos_gap": 0.0085,
+     "cos_gap_D": 0.0111
+    }
+   },
+   {
+    "increment": {
+     "pos": 0.3965,
+     "pos_null": 0.461,
+     "cos_gap": -0.0311,
+     "cos_gap_D": -0.018
+    },
+    "increment_centred": {
+     "pos": 0.373,
+     "pos_null": 0.4953,
+     "cos_gap": -0.0588,
+     "cos_gap_D": -0.0389
+    },
+    "drift": {
+     "pos": 0.4464,
+     "pos_null": 0.4596,
+     "cos_gap": -0.0039,
+     "cos_gap_D": 0.0053
+    },
+    "drift_centred": {
+     "pos": 0.4753,
+     "pos_null": 0.504,
+     "cos_gap": -0.0124,
+     "cos_gap_D": 0.0217
+    }
+   },
+   {
+    "increment": {
+     "pos": 0.5334,
+     "pos_null": 0.5224,
+     "cos_gap": 0.0075,
+     "cos_gap_D": 0.0255
+    },
+    "increment_centred": {
+     "pos": 0.4598,
+     "pos_null": 0.5047,
+     "cos_gap": -0.0119,
+     "cos_gap_D": 0.0469
+    },
+    "drift": {
+     "pos": 0.5453,
+     "pos_null": 0.5233,
+     "cos_gap": 0.0062,
+     "cos_gap_D": 0.0201
+    },
+    "drift_centred": {
+     "pos": 0.4937,
+     "pos_null": 0.4964,
+     "cos_gap": 0.0016,
+     "cos_gap_D": 0.0314
+    }
+   },
+   {
+    "increment": {
+     "pos": 0.5425,
+     "pos_null": 0.5008,
+     "cos_gap": 0.0233,
+     "cos_gap_D": 0.0658
+    },
+    "increment_centred": {
+     "pos": 0.5243,
+     "pos_null": 0.5026,
+     "cos_gap": 0.0168,
+     "cos_gap_D": 0.1222
+    },
+    "drift": {
+     "pos": 0.537,
+     "pos_null": 0.4956,
+     "cos_gap": 0.0192,
+     "cos_gap_D": 0.0391
+    },
+    "drift_centred": {
+     "pos": 0.5625,
+     "pos_null": 0.4966,
+     "cos_gap": 0.0258,
+     "cos_gap_D": 0.0988
+    }
+   },
+   {
+    "increment": {
+     "pos": 0.6476,
+     "pos_null": 0.5475,
+     "cos_gap": 0.0508,
+     "cos_gap_D": 0.0625
+    },
+    "increment_centred": {
+     "pos": 0.6751,
+     "pos_null": 0.516,
+     "cos_gap": 0.0782,
+     "cos_gap_D": 0.1183
+    },
+    "drift": {
+     "pos": 0.5928,
+     "pos_null": 0.5378,
+     "cos_gap": 0.0276,
+     "cos_gap_D": 0.0377
+    },
+    "drift_centred": {
+     "pos": 0.6021,
+     "pos_null": 0.4911,
+     "cos_gap": 0.0531,
+     "cos_gap_D": 0.094
+    }
+   },
+   {
+    "increment": {
+     "pos": 0.5291,
+     "pos_null": 0.54,
+     "cos_gap": -0.004,
+     "cos_gap_D": 0.0
+    },
+    "increment_centred": {
+     "pos": 0.3595,
+     "pos_null": 0.5004,
+     "cos_gap": -0.0614,
+     "cos_gap_D": 0.0142
+    },
+    "drift": {
+     "pos": 0.5423,
+     "pos_null": 0.5423,
+     "cos_gap": 0.0002,
+     "cos_gap_D": -0.0005
+    },
+    "drift_centred": {
+     "pos": 0.5036,
+     "pos_null": 0.4921,
+     "cos_gap": 0.0138,
+     "cos_gap_D": 0.0141
+    }
+   }
+  ],
+  "128": [
+   {
+    "increment": {
+     "pos": 0.2891,
+     "pos_null": 0.4782,
+     "cos_gap": -0.0457,
+     "cos_gap_D": -0.0285
+    },
+    "increment_centred": {
+     "pos": 0.1767,
+     "pos_null": 0.4986,
+     "cos_gap": -0.0849,
+     "cos_gap_D": -0.0524
+    },
+    "drift": {
+     "pos": 0.4353,
+     "pos_null": 0.4806,
+     "cos_gap": -0.0094,
+     "cos_gap_D": -0.005
+    },
+    "drift_centred": {
+     "pos": 0.3924,
+     "pos_null": 0.5022,
+     "cos_gap": -0.025,
+     "cos_gap_D": -0.0183
+    }
+   },
+   {
+    "increment": {
+     "pos": 0.4228,
+     "pos_null": 0.5127,
+     "cos_gap": -0.0359,
+     "cos_gap_D": -0.0166
+    },
+    "increment_centred": {
+     "pos": 0.2085,
+     "pos_null": 0.4865,
+     "cos_gap": -0.0952,
+     "cos_gap_D": -0.0622
+    },
+    "drift": {
+     "pos": 0.4903,
+     "pos_null": 0.514,
+     "cos_gap": -0.01,
+     "cos_gap_D": 0.0044
+    },
+    "drift_centred": {
+     "pos": 0.3443,
+     "pos_null": 0.5111,
+     "cos_gap": -0.0473,
+     "cos_gap_D": -0.0086
+    }
+   },
+   {
+    "increment": {
+     "pos": 0.2525,
+     "pos_null": 0.4759,
+     "cos_gap": -0.0829,
+     "cos_gap_D": -0.0939
+    },
+    "increment_centred": {
+     "pos": 0.1462,
+     "pos_null": 0.4962,
+     "cos_gap": -0.1365,
+     "cos_gap_D": -0.1369
+    },
+    "drift": {
+     "pos": 0.3941,
+     "pos_null": 0.4776,
+     "cos_gap": -0.0288,
+     "cos_gap_D": -0.0296
+    },
+    "drift_centred": {
+     "pos": 0.2891,
+     "pos_null": 0.5034,
+     "cos_gap": -0.0664,
+     "cos_gap_D": -0.0712
+    }
+   },
+   {
+    "increment": {
+     "pos": 0.4947,
+     "pos_null": 0.5079,
+     "cos_gap": -0.0078,
+     "cos_gap_D": -0.1633
+    },
+    "increment_centred": {
+     "pos": 0.4735,
+     "pos_null": 0.4917,
+     "cos_gap": -0.0121,
+     "cos_gap_D": -0.2465
+    },
+    "drift": {
+     "pos": 0.4482,
+     "pos_null": 0.5085,
+     "cos_gap": -0.0278,
+     "cos_gap_D": -0.1577
+    },
+    "drift_centred": {
+     "pos": 0.4159,
+     "pos_null": 0.4761,
+     "cos_gap": -0.0341,
+     "cos_gap_D": -0.235
+    }
+   },
+   {
+    "increment": {
+     "pos": 0.6074,
+     "pos_null": 0.4707,
+     "cos_gap": 0.0462,
+     "cos_gap_D": 0.0004
+    },
+    "increment_centred": {
+     "pos": 0.6981,
+     "pos_null": 0.5123,
+     "cos_gap": 0.0725,
+     "cos_gap_D": -0.0006
+    },
+    "drift": {
+     "pos": 0.4594,
+     "pos_null": 0.4689,
+     "cos_gap": -0.0025,
+     "cos_gap_D": -0.0172
+    },
+    "drift_centred": {
+     "pos": 0.4915,
+     "pos_null": 0.5131,
+     "cos_gap": -0.0029,
+     "cos_gap_D": -0.0443
+    }
+   },
+   {
+    "increment": {
+     "pos": 0.5028,
+     "pos_null": 0.4939,
+     "cos_gap": 0.0057,
+     "cos_gap_D": -0.0405
+    },
+    "increment_centred": {
+     "pos": 0.5364,
+     "pos_null": 0.4939,
+     "cos_gap": 0.0132,
+     "cos_gap_D": -0.0857
+    },
+    "drift": {
+     "pos": 0.4709,
+     "pos_null": 0.4875,
+     "cos_gap": -0.0054,
+     "cos_gap_D": -0.0102
+    },
+    "drift_centred": {
+     "pos": 0.4323,
+     "pos_null": 0.4972,
+     "cos_gap": -0.0161,
+     "cos_gap_D": -0.0257
+    }
+   },
+   {
+    "increment": {
+     "pos": 0.5843,
+     "pos_null": 0.4818,
+     "cos_gap": 0.0395,
+     "cos_gap_D": 0.0078
+    },
+    "increment_centred": {
+     "pos": 0.6264,
+     "pos_null": 0.5049,
+     "cos_gap": 0.0514,
+     "cos_gap_D": 0.0091
+    },
+    "drift": {
+     "pos": 0.5042,
+     "pos_null": 0.4996,
+     "cos_gap": 0.0057,
+     "cos_gap_D": -0.0039
+    },
+    "drift_centred": {
+     "pos": 0.5081,
+     "pos_null": 0.4968,
+     "cos_gap": 0.0108,
+     "cos_gap_D": 0.0021
+    }
+   },
+   {
+    "increment": {
+     "pos": 0.4076,
+     "pos_null": 0.478,
+     "cos_gap": -0.0274,
+     "cos_gap_D": -0.0208
+    },
+    "increment_centred": {
+     "pos": 0.3769,
+     "pos_null": 0.499,
+     "cos_gap": -0.0514,
+     "cos_gap_D": -0.0441
+    },
+    "drift": {
+     "pos": 0.4644,
+     "pos_null": 0.4705,
+     "cos_gap": -0.0013,
+     "cos_gap_D": 0.0049
+    },
+    "drift_centred": {
+     "pos": 0.479,
+     "pos_null": 0.4964,
+     "cos_gap": -0.0056,
+     "cos_gap_D": 0.0219
+    }
+   },
+   {
+    "increment": {
+     "pos": 0.5081,
+     "pos_null": 0.5194,
+     "cos_gap": 0.003,
+     "cos_gap_D": 0.0281
+    },
+    "increment_centred": {
+     "pos": 0.4307,
+     "pos_null": 0.5028,
+     "cos_gap": -0.0182,
+     "cos_gap_D": 0.0503
+    },
+    "drift": {
+     "pos": 0.5275,
+     "pos_null": 0.5192,
+     "cos_gap": 0.0043,
+     "cos_gap_D": 0.02
+    },
+    "drift_centred": {
+     "pos": 0.4806,
+     "pos_null": 0.4958,
+     "cos_gap": 0.001,
+     "cos_gap_D": 0.0316
+    }
+   },
+   {
+    "increment": {
+     "pos": 0.5186,
+     "pos_null": 0.4863,
+     "cos_gap": 0.017,
+     "cos_gap_D": 0.0705
+    },
+    "increment_centred": {
+     "pos": 0.5034,
+     "pos_null": 0.4968,
+     "cos_gap": 0.0054,
+     "cos_gap_D": 0.1253
+    },
+    "drift": {
+     "pos": 0.5311,
+     "pos_null": 0.4852,
+     "cos_gap": 0.0181,
+     "cos_gap_D": 0.0409
+    },
+    "drift_centred": {
+     "pos": 0.5657,
+     "pos_null": 0.4988,
+     "cos_gap": 0.026,
+     "cos_gap_D": 0.1041
+    }
+   },
+   {
+    "increment": {
+     "pos": 0.6585,
+     "pos_null": 0.5524,
+     "cos_gap": 0.0479,
+     "cos_gap_D": 0.0657
+    },
+    "increment_centred": {
+     "pos": 0.681,
+     "pos_null": 0.5139,
+     "cos_gap": 0.0695,
+     "cos_gap_D": 0.1245
+    },
+    "drift": {
+     "pos": 0.5944,
+     "pos_null": 0.5416,
+     "cos_gap": 0.0231,
+     "cos_gap_D": 0.0395
+    },
+    "drift_centred": {
+     "pos": 0.6029,
+     "pos_null": 0.501,
+     "cos_gap": 0.0447,
+     "cos_gap_D": 0.0957
+    }
+   },
+   {
+    "increment": {
+     "pos": 0.514,
+     "pos_null": 0.5485,
+     "cos_gap": -0.0079,
+     "cos_gap_D": -0.0004
+    },
+    "increment_centred": {
+     "pos": 0.2541,
+     "pos_null": 0.5061,
+     "cos_gap": -0.1178,
+     "cos_gap_D": 0.0058
+    },
+    "drift": {
+     "pos": 0.5473,
+     "pos_null": 0.5485,
+     "cos_gap": -0.0003,
+     "cos_gap_D": -0.0002
+    },
+    "drift_centred": {
+     "pos": 0.4634,
+     "pos_null": 0.4879,
+     "cos_gap": -0.0005,
+     "cos_gap_D": 0.0132
+    }
+   }
+  ]
+ },
+ "sign_controls": {
+  "16": {
+   "isotropic_ratio2": {
+    "increment": {
+     "pos": 1.0,
+     "pos_null": 0.4964,
+     "cos_gap": 0.8108,
+     "cos_gap_D": 0.8076
+    },
+    "increment_centred": {
+     "pos": 1.0,
+     "pos_null": 0.5042,
+     "cos_gap": 0.807,
+     "cos_gap_D": 0.8097
+    },
+    "drift": {
+     "pos": 1.0,
+     "pos_null": 0.5137,
+     "cos_gap": 0.8968,
+     "cos_gap_D": 0.8989
+    },
+    "drift_centred": {
+     "pos": 1.0,
+     "pos_null": 0.4968,
+     "cos_gap": 0.9076,
+     "cos_gap_D": 0.9051
+    },
+    "true_drift": {
+     "pos": 1.0,
+     "pos_null": 0.5063,
+     "cos_gap": 0.9089
+    }
+   },
+   "isotropic_ratio5": {
+    "increment": {
+     "pos": 1.0,
+     "pos_null": 0.4986,
+     "cos_gap": 0.8957,
+     "cos_gap_D": 0.8914
+    },
+    "increment_centred": {
+     "pos": 1.0,
+     "pos_null": 0.503,
+     "cos_gap": 0.8921,
+     "cos_gap_D": 0.893
+    },
+    "drift": {
+     "pos": 1.0,
+     "pos_null": 0.5139,
+     "cos_gap": 0.905,
+     "cos_gap_D": 0.9074
+    },
+    "drift_centred": {
+     "pos": 1.0,
+     "pos_null": 0.4953,
+     "cos_gap": 0.9163,
+     "cos_gap_D": 0.9133
+    },
+    "true_drift": {
+     "pos": 1.0,
+     "pos_null": 0.5063,
+     "cos_gap": 0.9089
+    }
+   },
+   "anisotropic_ratio2": {
+    "increment": {
+     "pos": 1.0,
+     "pos_null": 0.498,
+     "cos_gap": 0.6223,
+     "cos_gap_D": 0.7933
+    },
+    "increment_centred": {
+     "pos": 1.0,
+     "pos_null": 0.5067,
+     "cos_gap": 0.6189,
+     "cos_gap_D": 0.7887
+    },
+    "drift": {
+     "pos": 1.0,
+     "pos_null": 0.515,
+     "cos_gap": 0.7083,
+     "cos_gap_D": 0.877
+    },
+    "drift_centred": {
+     "pos": 1.0,
+     "pos_null": 0.4921,
+     "cos_gap": 0.7166,
+     "cos_gap_D": 0.8883
+    },
+    "true_drift": {
+     "pos": 1.0,
+     "pos_null": 0.5127,
+     "cos_gap": 0.6974
+    }
+   },
+   "anisotropic_ratio5": {
+    "increment": {
+     "pos": 1.0,
+     "pos_null": 0.4915,
+     "cos_gap": 0.6888,
+     "cos_gap_D": 0.879
+    },
+    "increment_centred": {
+     "pos": 1.0,
+     "pos_null": 0.5016,
+     "cos_gap": 0.6866,
+     "cos_gap_D": 0.8741
+    },
+    "drift": {
+     "pos": 1.0,
+     "pos_null": 0.5133,
+     "cos_gap": 0.7161,
+     "cos_gap_D": 0.8875
+    },
+    "drift_centred": {
+     "pos": 1.0,
+     "pos_null": 0.4905,
+     "cos_gap": 0.7247,
+     "cos_gap_D": 0.8976
+    },
+    "true_drift": {
+     "pos": 1.0,
+     "pos_null": 0.5127,
+     "cos_gap": 0.6974
+    }
+   },
+   "state_dependent_ratio2": {
+    "increment": {
+     "pos": 1.0,
+     "pos_null": 0.4978,
+     "cos_gap": 0.6116,
+     "cos_gap_D": 0.7983
+    },
+    "increment_centred": {
+     "pos": 1.0,
+     "pos_null": 0.5075,
+     "cos_gap": 0.6083,
+     "cos_gap_D": 0.7935
+    },
+    "drift": {
+     "pos": 1.0,
+     "pos_null": 0.5127,
+     "cos_gap": 0.7043,
+     "cos_gap_D": 0.8611
+    },
+    "drift_centred": {
+     "pos": 1.0,
+     "pos_null": 0.4919,
+     "cos_gap": 0.7124,
+     "cos_gap_D": 0.8731
+    },
+    "true_drift": {
+     "pos": 1.0,
+     "pos_null": 0.5113,
+     "cos_gap": 0.6882
+    }
+   },
+   "state_dependent_ratio5": {
+    "increment": {
+     "pos": 1.0,
+     "pos_null": 0.4909,
+     "cos_gap": 0.6789,
+     "cos_gap_D": 0.8854
+    },
+    "increment_centred": {
+     "pos": 1.0,
+     "pos_null": 0.5018,
+     "cos_gap": 0.6768,
+     "cos_gap_D": 0.8814
+    },
+    "drift": {
+     "pos": 1.0,
+     "pos_null": 0.5125,
+     "cos_gap": 0.7131,
+     "cos_gap_D": 0.8194
+    },
+    "drift_centred": {
+     "pos": 1.0,
+     "pos_null": 0.4905,
+     "cos_gap": 0.7215,
+     "cos_gap_D": 0.831
+    },
+    "true_drift": {
+     "pos": 1.0,
+     "pos_null": 0.5113,
+     "cos_gap": 0.6882
+    }
+   }
+  },
+  "32": {
+   "isotropic_ratio2": {
+    "increment": {
+     "pos": 1.0,
+     "pos_null": 0.5,
+     "cos_gap": 0.7759,
+     "cos_gap_D": 0.7771
+    },
+    "increment_centred": {
+     "pos": 1.0,
+     "pos_null": 0.4996,
+     "cos_gap": 0.7774,
+     "cos_gap_D": 0.7773
+    },
+    "drift": {
+     "pos": 1.0,
+     "pos_null": 0.4978,
+     "cos_gap": 0.8545,
+     "cos_gap_D": 0.8577
+    },
+    "drift_centred": {
+     "pos": 1.0,
+     "pos_null": 0.4958,
+     "cos_gap": 0.8576,
+     "cos_gap_D": 0.8529
+    },
+    "true_drift": {
+     "pos": 1.0,
+     "pos_null": 0.5012,
+     "cos_gap": 0.8733
+    }
+   },
+   "isotropic_ratio5": {
+    "increment": {
+     "pos": 1.0,
+     "pos_null": 0.5057,
+     "cos_gap": 0.853,
+     "cos_gap_D": 0.854
+    },
+    "increment_centred": {
+     "pos": 1.0,
+     "pos_null": 0.5046,
+     "cos_gap": 0.8545,
+     "cos_gap_D": 0.8543
+    },
+    "drift": {
+     "pos": 1.0,
+     "pos_null": 0.4974,
+     "cos_gap": 0.87,
+     "cos_gap_D": 0.8731
+    },
+    "drift_centred": {
+     "pos": 1.0,
+     "pos_null": 0.4982,
+     "cos_gap": 0.8725,
+     "cos_gap_D": 0.8687
+    },
+    "true_drift": {
+     "pos": 1.0,
+     "pos_null": 0.5012,
+     "cos_gap": 0.8733
+    }
+   },
+   "anisotropic_ratio2": {
+    "increment": {
+     "pos": 1.0,
+     "pos_null": 0.4962,
+     "cos_gap": 0.6129,
+     "cos_gap_D": 0.7662
+    },
+    "increment_centred": {
+     "pos": 1.0,
+     "pos_null": 0.5093,
+     "cos_gap": 0.6117,
+     "cos_gap_D": 0.761
+    },
+    "drift": {
+     "pos": 1.0,
+     "pos_null": 0.4976,
+     "cos_gap": 0.6774,
+     "cos_gap_D": 0.8503
+    },
+    "drift_centred": {
+     "pos": 1.0,
+     "pos_null": 0.4913,
+     "cos_gap": 0.6798,
+     "cos_gap_D": 0.8396
+    },
+    "true_drift": {
+     "pos": 1.0,
+     "pos_null": 0.5057,
+     "cos_gap": 0.6864
+    }
+   },
+   "anisotropic_ratio5": {
+    "increment": {
+     "pos": 1.0,
+     "pos_null": 0.4984,
+     "cos_gap": 0.6748,
+     "cos_gap_D": 0.8438
+    },
+    "increment_centred": {
+     "pos": 1.0,
+     "pos_null": 0.5117,
+     "cos_gap": 0.6729,
+     "cos_gap_D": 0.8394
+    },
+    "drift": {
+     "pos": 1.0,
+     "pos_null": 0.4976,
+     "cos_gap": 0.6905,
+     "cos_gap_D": 0.8668
+    },
+    "drift_centred": {
+     "pos": 1.0,
+     "pos_null": 0.4931,
+     "cos_gap": 0.6925,
+     "cos_gap_D": 0.8558
+    },
+    "true_drift": {
+     "pos": 1.0,
+     "pos_null": 0.5057,
+     "cos_gap": 0.6864
+    }
+   },
+   "state_dependent_ratio2": {
+    "increment": {
+     "pos": 1.0,
+     "pos_null": 0.4976,
+     "cos_gap": 0.6065,
+     "cos_gap_D": 0.772
+    },
+    "increment_centred": {
+     "pos": 1.0,
+     "pos_null": 0.5087,
+     "cos_gap": 0.6055,
+     "cos_gap_D": 0.7667
+    },
+    "drift": {
+     "pos": 1.0,
+     "pos_null": 0.4984,
+     "cos_gap": 0.6731,
+     "cos_gap_D": 0.8417
+    },
+    "drift_centred": {
+     "pos": 1.0,
+     "pos_null": 0.4907,
+     "cos_gap": 0.6756,
+     "cos_gap_D": 0.8299
+    },
+    "true_drift": {
+     "pos": 1.0,
+     "pos_null": 0.5047,
+     "cos_gap": 0.6809
+    }
+   },
+   "state_dependent_ratio5": {
+    "increment": {
+     "pos": 1.0,
+     "pos_null": 0.5004,
+     "cos_gap": 0.6691,
+     "cos_gap_D": 0.8762
+    },
+    "increment_centred": {
+     "pos": 1.0,
+     "pos_null": 0.5105,
+     "cos_gap": 0.6672,
+     "cos_gap_D": 0.8711
+    },
+    "drift": {
+     "pos": 1.0,
+     "pos_null": 0.4986,
+     "cos_gap": 0.6878,
+     "cos_gap_D": 0.8304
+    },
+    "drift_centred": {
+     "pos": 1.0,
+     "pos_null": 0.4943,
+     "cos_gap": 0.6897,
+     "cos_gap_D": 0.8165
+    },
+    "true_drift": {
+     "pos": 1.0,
+     "pos_null": 0.5047,
+     "cos_gap": 0.6809
+    }
+   }
+  },
+  "64": {
+   "isotropic_ratio2": {
+    "increment": {
+     "pos": 1.0,
+     "pos_null": 0.499,
+     "cos_gap": 0.7451,
+     "cos_gap_D": 0.7446
+    },
+    "increment_centred": {
+     "pos": 1.0,
+     "pos_null": 0.4931,
+     "cos_gap": 0.7468,
+     "cos_gap_D": 0.7429
+    },
+    "drift": {
+     "pos": 1.0,
+     "pos_null": 0.5097,
+     "cos_gap": 0.7651,
+     "cos_gap_D": 0.7706
+    },
+    "drift_centred": {
+     "pos": 1.0,
+     "pos_null": 0.499,
+     "cos_gap": 0.7688,
+     "cos_gap_D": 0.769
+    },
+    "true_drift": {
+     "pos": 1.0,
+     "pos_null": 0.4949,
+     "cos_gap": 0.8384
+    }
+   },
+   "isotropic_ratio5": {
+    "increment": {
+     "pos": 1.0,
+     "pos_null": 0.501,
+     "cos_gap": 0.8183,
+     "cos_gap_D": 0.8176
+    },
+    "increment_centred": {
+     "pos": 1.0,
+     "pos_null": 0.4966,
+     "cos_gap": 0.8197,
+     "cos_gap_D": 0.8148
+    },
+    "drift": {
+     "pos": 1.0,
+     "pos_null": 0.5091,
+     "cos_gap": 0.7892,
+     "cos_gap_D": 0.7951
+    },
+    "drift_centred": {
+     "pos": 1.0,
+     "pos_null": 0.4988,
+     "cos_gap": 0.7933,
+     "cos_gap_D": 0.7933
+    },
+    "true_drift": {
+     "pos": 1.0,
+     "pos_null": 0.4949,
+     "cos_gap": 0.8384
+    }
+   },
+   "anisotropic_ratio2": {
+    "increment": {
+     "pos": 1.0,
+     "pos_null": 0.5059,
+     "cos_gap": 0.5949,
+     "cos_gap_D": 0.7389
+    },
+    "increment_centred": {
+     "pos": 1.0,
+     "pos_null": 0.4988,
+     "cos_gap": 0.5984,
+     "cos_gap_D": 0.7416
+    },
+    "drift": {
+     "pos": 1.0,
+     "pos_null": 0.5073,
+     "cos_gap": 0.6134,
+     "cos_gap_D": 0.7695
+    },
+    "drift_centred": {
+     "pos": 1.0,
+     "pos_null": 0.5083,
+     "cos_gap": 0.6141,
+     "cos_gap_D": 0.7667
+    },
+    "true_drift": {
+     "pos": 1.0,
+     "pos_null": 0.4893,
+     "cos_gap": 0.6735
+    }
+   },
+   "anisotropic_ratio5": {
+    "increment": {
+     "pos": 1.0,
+     "pos_null": 0.5014,
+     "cos_gap": 0.6533,
+     "cos_gap_D": 0.8127
+    },
+    "increment_centred": {
+     "pos": 1.0,
+     "pos_null": 0.4953,
+     "cos_gap": 0.6571,
+     "cos_gap_D": 0.815
+    },
+    "drift": {
+     "pos": 1.0,
+     "pos_null": 0.5075,
+     "cos_gap": 0.6323,
+     "cos_gap_D": 0.7939
+    },
+    "drift_centred": {
+     "pos": 1.0,
+     "pos_null": 0.5073,
+     "cos_gap": 0.6335,
+     "cos_gap_D": 0.7909
+    },
+    "true_drift": {
+     "pos": 1.0,
+     "pos_null": 0.4893,
+     "cos_gap": 0.6735
+    }
+   },
+   "state_dependent_ratio2": {
+    "increment": {
+     "pos": 1.0,
+     "pos_null": 0.5067,
+     "cos_gap": 0.5915,
+     "cos_gap_D": 0.7422
+    },
+    "increment_centred": {
+     "pos": 1.0,
+     "pos_null": 0.4984,
+     "cos_gap": 0.5949,
+     "cos_gap_D": 0.745
+    },
+    "drift": {
+     "pos": 1.0,
+     "pos_null": 0.5075,
+     "cos_gap": 0.6098,
+     "cos_gap_D": 0.7639
+    },
+    "drift_centred": {
+     "pos": 1.0,
+     "pos_null": 0.5093,
+     "cos_gap": 0.6103,
+     "cos_gap_D": 0.7612
+    },
+    "true_drift": {
+     "pos": 1.0,
+     "pos_null": 0.4901,
+     "cos_gap": 0.6703
+    }
+   },
+   "state_dependent_ratio5": {
+    "increment": {
+     "pos": 1.0,
+     "pos_null": 0.5016,
+     "cos_gap": 0.65,
+     "cos_gap_D": 0.8416
+    },
+    "increment_centred": {
+     "pos": 1.0,
+     "pos_null": 0.4951,
+     "cos_gap": 0.6538,
+     "cos_gap_D": 0.8445
+    },
+    "drift": {
+     "pos": 1.0,
+     "pos_null": 0.5083,
+     "cos_gap": 0.6308,
+     "cos_gap_D": 0.7788
+    },
+    "drift_centred": {
+     "pos": 1.0,
+     "pos_null": 0.5071,
+     "cos_gap": 0.6317,
+     "cos_gap_D": 0.7763
+    },
+    "true_drift": {
+     "pos": 1.0,
+     "pos_null": 0.4901,
+     "cos_gap": 0.6703
+    }
+   }
+  },
+  "128": {
+   "isotropic_ratio2": {
+    "increment": {
+     "pos": 1.0,
+     "pos_null": 0.4953,
+     "cos_gap": 0.7216,
+     "cos_gap_D": 0.7192
+    },
+    "increment_centred": {
+     "pos": 1.0,
+     "pos_null": 0.5073,
+     "cos_gap": 0.7194,
+     "cos_gap_D": 0.7172
+    },
+    "drift": {
+     "pos": 1.0,
+     "pos_null": 0.5016,
+     "cos_gap": 0.6432,
+     "cos_gap_D": 0.6414
+    },
+    "drift_centred": {
+     "pos": 1.0,
+     "pos_null": 0.5012,
+     "cos_gap": 0.6449,
+     "cos_gap_D": 0.6435
+    },
+    "true_drift": {
+     "pos": 1.0,
+     "pos_null": 0.5012,
+     "cos_gap": 0.8063
+    }
+   },
+   "isotropic_ratio5": {
+    "increment": {
+     "pos": 1.0,
+     "pos_null": 0.4954,
+     "cos_gap": 0.7919,
+     "cos_gap_D": 0.7891
+    },
+    "increment_centred": {
+     "pos": 1.0,
+     "pos_null": 0.5051,
+     "cos_gap": 0.7901,
+     "cos_gap_D": 0.7869
+    },
+    "drift": {
+     "pos": 1.0,
+     "pos_null": 0.501,
+     "cos_gap": 0.6744,
+     "cos_gap_D": 0.6727
+    },
+    "drift_centred": {
+     "pos": 1.0,
+     "pos_null": 0.4996,
+     "cos_gap": 0.6762,
+     "cos_gap_D": 0.6747
+    },
+    "true_drift": {
+     "pos": 1.0,
+     "pos_null": 0.5012,
+     "cos_gap": 0.8063
+    }
+   },
+   "anisotropic_ratio2": {
+    "increment": {
+     "pos": 1.0,
+     "pos_null": 0.5036,
+     "cos_gap": 0.5737,
+     "cos_gap_D": 0.7185
+    },
+    "increment_centred": {
+     "pos": 1.0,
+     "pos_null": 0.5063,
+     "cos_gap": 0.5719,
+     "cos_gap_D": 0.7149
+    },
+    "drift": {
+     "pos": 1.0,
+     "pos_null": 0.5099,
+     "cos_gap": 0.5108,
+     "cos_gap_D": 0.6373
+    },
+    "drift_centred": {
+     "pos": 1.0,
+     "pos_null": 0.4897,
+     "cos_gap": 0.5144,
+     "cos_gap_D": 0.6411
+    },
+    "true_drift": {
+     "pos": 1.0,
+     "pos_null": 0.4923,
+     "cos_gap": 0.6433
+    }
+   },
+   "anisotropic_ratio5": {
+    "increment": {
+     "pos": 1.0,
+     "pos_null": 0.502,
+     "cos_gap": 0.63,
+     "cos_gap_D": 0.7883
+    },
+    "increment_centred": {
+     "pos": 1.0,
+     "pos_null": 0.5055,
+     "cos_gap": 0.6287,
+     "cos_gap_D": 0.785
+    },
+    "drift": {
+     "pos": 1.0,
+     "pos_null": 0.5036,
+     "cos_gap": 0.5357,
+     "cos_gap_D": 0.669
+    },
+    "drift_centred": {
+     "pos": 1.0,
+     "pos_null": 0.4895,
+     "cos_gap": 0.5392,
+     "cos_gap_D": 0.6732
+    },
+    "true_drift": {
+     "pos": 1.0,
+     "pos_null": 0.4923,
+     "cos_gap": 0.6433
+    }
+   },
+   "state_dependent_ratio2": {
+    "increment": {
+     "pos": 1.0,
+     "pos_null": 0.5028,
+     "cos_gap": 0.5716,
+     "cos_gap_D": 0.7204
+    },
+    "increment_centred": {
+     "pos": 1.0,
+     "pos_null": 0.5073,
+     "cos_gap": 0.5698,
+     "cos_gap_D": 0.7168
+    },
+    "drift": {
+     "pos": 1.0,
+     "pos_null": 0.5093,
+     "cos_gap": 0.5086,
+     "cos_gap_D": 0.6336
+    },
+    "drift_centred": {
+     "pos": 1.0,
+     "pos_null": 0.4917,
+     "cos_gap": 0.512,
+     "cos_gap_D": 0.6373
+    },
+    "true_drift": {
+     "pos": 1.0,
+     "pos_null": 0.4929,
+     "cos_gap": 0.6416
+    }
+   },
+   "state_dependent_ratio5": {
+    "increment": {
+     "pos": 1.0,
+     "pos_null": 0.5018,
+     "cos_gap": 0.6281,
+     "cos_gap_D": 0.8098
+    },
+    "increment_centred": {
+     "pos": 1.0,
+     "pos_null": 0.5049,
+     "cos_gap": 0.6268,
+     "cos_gap_D": 0.8064
+    },
+    "drift": {
+     "pos": 1.0,
+     "pos_null": 0.5047,
+     "cos_gap": 0.5356,
+     "cos_gap_D": 0.6634
+    },
+    "drift_centred": {
+     "pos": 1.0,
+     "pos_null": 0.4921,
+     "cos_gap": 0.539,
+     "cos_gap_D": 0.6678
+    },
+    "true_drift": {
+     "pos": 1.0,
+     "pos_null": 0.4929,
+     "cos_gap": 0.6416
+    }
+   }
+  }
+ }
+}

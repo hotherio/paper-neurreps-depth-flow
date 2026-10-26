@@ -1,0 +1,17 @@
+\begin{table}[t]
+\centering
+\caption{The sign test at four widths: the fraction of held-out tokens whose drift has a positive inner product with the estimated score. Controls is the smallest value over the six controls of Appendix~\ref{app:density}, real and shuffled are means over transitions, then the per-transition range, the same with the common translation removed, and the cosine gap once the score is multiplied by the fitted residual covariance.}
+\label{tab:density}
+\small
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lcccccc}
+\toprule
+width & controls & real & shuffled & per transition & translation removed & cos.\ gap with $\hat D$ \\
+\midrule
+16 & 1.00 & 0.479 & 0.490 & 0.37--0.57 & 0.32--0.59 & -0.014 / +0.049 \\
+32 & 1.00 & 0.483 & 0.494 & 0.41--0.59 & 0.30--0.61 & -0.013 / +0.041 \\
+64 & 1.00 & 0.483 & 0.495 & 0.40--0.59 & 0.28--0.60 & -0.010 / +0.039 \\
+128 & 1.00 & 0.489 & 0.500 & 0.39--0.59 & 0.29--0.60 & -0.010 / +0.041 \\
+\bottomrule
+\end{tabular}
+\end{table}

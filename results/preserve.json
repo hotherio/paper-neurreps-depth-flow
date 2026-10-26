@@ -1,0 +1,63 @@
+{
+ "instrument": {
+  "planted": 0.991,
+  "shuffled": 0.079
+ },
+ "wikitext_160m": {
+  "n_trajectories": 25268,
+  "cos_mean": {
+   "icc": 0.753,
+   "spearman_entry_exit": 0.76
+  },
+  "norm": {
+   "icc": 0.527,
+   "spearman_entry_exit": -0.174
+  },
+  "participation": {
+   "icc": 0.358,
+   "spearman_entry_exit": -0.588
+  },
+  "density": {
+   "icc": 0.873,
+   "spearman_entry_exit": 0.833
+  }
+ },
+ "pile_160m": {
+  "n_trajectories": 36298,
+  "cos_mean": {
+   "icc": 0.671,
+   "spearman_entry_exit": 0.548
+  },
+  "norm": {
+   "icc": 0.585,
+   "spearman_entry_exit": -0.157
+  },
+  "participation": {
+   "icc": 0.35,
+   "spearman_entry_exit": -0.486
+  },
+  "density": {
+   "icc": 0.836,
+   "spearman_entry_exit": 0.698
+  }
+ },
+ "wikitext_410m": {
+  "n_trajectories": 11937,
+  "cos_mean": {
+   "icc": 0.771,
+   "spearman_entry_exit": 0.682
+  },
+  "norm": {
+   "icc": 0.607,
+   "spearman_entry_exit": 0.472
+  },
+  "participation": {
+   "icc": 0.574,
+   "spearman_entry_exit": 0.587
+  },
+  "density": {
+   "icc": 0.792,
+   "spearman_entry_exit": 0.785
+  }
+ }
+}
