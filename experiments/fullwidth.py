@@ -143,7 +143,7 @@ save(
         n_train=int(len(tr)),
         n_test=int(len(te)),
         affine_r2_real=[r["real"]["affine"] for r in rows],
-        recovery=np.round(recovery, 3).tolist(),
-        nonaffine_share=np.round(share, 4).tolist(),
+        recovery=recovery.tolist(),
+        nonaffine_share=share.tolist(),
     ),
 )

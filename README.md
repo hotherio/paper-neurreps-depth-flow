@@ -2,12 +2,6 @@
 
 Alexandre Quemy. NeurReps 2026, Proceedings track (PMLR).
 
-A token's representation is carried through a transformer layer by layer. This paper fits the equation of motion of
-that flow on next-token-conditioned mean trajectories of Pythia-160M and Pythia-410M and on individual states, and
-measures what the flow does: its drift is nonlinear, it does not descend the gradient of its own density, it
-mostly descends a potential that is not that density, and it preserves each token's angular rank while moving the
-whole vocabulary.
-
 `paper/` holds the camera-ready source; the rest of the repository rebuilds every number, table and figure in it.
 
 ## Layout
@@ -52,11 +46,9 @@ present, else on the CPU. Then, with `uv run python`:
 | `figures/river.py`, `figures/quadfield.py`, `figures/helm.py` | Figures 1 to 3 | 160M ladder |
 | `tables.py` | `paper/tables/*.tex` from `results/` | the results above |
 
-Every script draws its random numbers in the order of the original runs, so the outputs match the committed
-`results/` and the paper to the printed digit on the same caches. The caches themselves depend on the hardware's
-float16 arithmetic, so a rebuild from Hugging Face reproduces them to a few decimals, not bitwise.
-
-The full-width contests take a few hours each on a laptop CPU; everything else runs in minutes.
+The scripts draw their random numbers in the order of the original runs, so on the same caches they reproduce the
+committed `results/` and the paper's numbers to the printed digit. The caches depend on the hardware's float16
+arithmetic, so a rebuild from Hugging Face reproduces them to a few decimals.
 
 ## Paper
 

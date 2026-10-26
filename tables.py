@@ -65,12 +65,15 @@ def fullwidth_rows(states, widths):
     for w in widths:
         r = load(f"fullwidth_{states}_{w}")
         gain = lambda arm, r=r: np.array([x[arm]["mlp"] - x[arm]["affine"] for x in r["per_transition"]])
-        aff, share = np.array(r["affine_r2_real"]), np.array(r["nonaffine_share"])
+        rec = (gain("planted10") - gain("null")) / np.array(
+            [x["planted_share"]["planted10"] for x in r["per_transition"]]
+        )
+        aff, share = np.array(r["affine_r2_real"]), (gain("real") - gain("null")) / rec
         rows.append(
             f"{'raw $768$' if w == 768 else w} & {aff.min():.2f}--{aff.max():.2f} & "
             f"{gain('null').min():+.3f} to {gain('null').max():+.3f} & {gain('real').min():+.3f} to "
             f"{gain('real').max():+.3f} & {np.median(gain('real') - gain('null')):+.3f} & "
-            f"{np.median(r['recovery']):.2f} & {np.median(share) * 100:.1f}\\% \\\\"
+            f"{np.median(rec):.2f} & {np.median(share) * 100:.1f}\\% \\\\"
         )
         if w == 768:
             key = "crFw" if states == "means" else "crOccFw"
