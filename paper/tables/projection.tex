@@ -1,0 +1,19 @@
+\begin{table}[t]
+\centering
+\caption{Quadratic against affine map on the real flow and on four surrogates whose full-width step is known. Wins are transitions where the quadratic map explains more held-out increment variance, margins are medians over transitions, and the last column is the range of the circulation share at $16$ components. Cross-fitted: every training token predicted by a map fitted on the other half.}
+\label{tab:projection}
+\small
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lcccccc c}
+\toprule
+& \multicolumn{2}{c}{16 components} & \multicolumn{2}{c}{32} & \multicolumn{2}{c}{64} & circulation (16) \\
+flow & wins & margin & wins & margin & wins & margin & \\
+\midrule
+real flow & 12/12 & +0.083 & 12/12 & +0.068 & 12/12 & +0.042 & 0.04--0.45 \\
+affine at full width & 12/12 & +0.074 & 12/12 & +0.061 & 10/12 & +0.018 & 0.03--0.42 \\
+affine, cross-fitted & 12/12 & +0.074 & 12/12 & +0.058 & 9/12 & +0.015 & -- \\
+affine, Gaussian cloud & 0/12 & -0.002 & 0/12 & -0.006 & 0/12 & -0.021 & -- \\
+gradient at full width & 12/12 & +0.014 & 12/12 & +0.009 & 6/12 & +0.001 & 0.01--0.23 \\
+\bottomrule
+\end{tabular}
+\end{table}

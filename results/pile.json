@@ -1,0 +1,193 @@
+{
+ "n_trajectories": 36298,
+ "transitions": [
+  {
+   "r2_km": 0.808,
+   "r2_affine": 0.695,
+   "r2_quad": 0.779,
+   "ll_km": 4.05,
+   "ll_null_a": -10.02,
+   "ll_null_c": -2.33,
+   "ll_affine": -1.91,
+   "margin": 5.69
+  },
+  {
+   "r2_km": 0.468,
+   "r2_affine": 0.379,
+   "r2_quad": 0.451,
+   "ll_km": 11.89,
+   "ll_null_a": 2.89,
+   "ll_null_c": 8.76,
+   "ll_affine": 9.02,
+   "margin": 2.38
+  },
+  {
+   "r2_km": 0.741,
+   "r2_affine": 0.621,
+   "r2_quad": 0.742,
+   "ll_km": 4.87,
+   "ll_null_a": -7.6,
+   "ll_null_c": 1.51,
+   "ll_affine": 1.57,
+   "margin": 3.09
+  },
+  {
+   "r2_km": 0.749,
+   "r2_affine": 0.666,
+   "r2_quad": 0.854,
+   "ll_km": 7.09,
+   "ll_null_a": -7.88,
+   "ll_null_c": 1.48,
+   "ll_affine": 1.64,
+   "margin": 2.51
+  },
+  {
+   "r2_km": 0.778,
+   "r2_affine": 0.74,
+   "r2_quad": 0.791,
+   "ll_km": 9.49,
+   "ll_null_a": -2.04,
+   "ll_null_c": 6.27,
+   "ll_affine": 7.08,
+   "margin": 1.17
+  },
+  {
+   "r2_km": 0.444,
+   "r2_affine": 0.38,
+   "r2_quad": 0.506,
+   "ll_km": 2.76,
+   "ll_null_a": -3.74,
+   "ll_null_c": 5.46,
+   "ll_affine": -0.13,
+   "margin": 1.65
+  },
+  {
+   "r2_km": 0.582,
+   "r2_affine": 0.525,
+   "r2_quad": 0.638,
+   "ll_km": 2.13,
+   "ll_null_a": -6.5,
+   "ll_null_c": 3.65,
+   "ll_affine": -0.27,
+   "margin": 1.78
+  },
+  {
+   "r2_km": 0.699,
+   "r2_affine": 0.682,
+   "r2_quad": 0.771,
+   "ll_km": -2.87,
+   "ll_null_a": -13.34,
+   "ll_null_c": -1.59,
+   "ll_affine": -4.43,
+   "margin": 1.28
+  },
+  {
+   "r2_km": 0.711,
+   "r2_affine": 0.729,
+   "r2_quad": 0.802,
+   "ll_km": -7.03,
+   "ll_null_a": -18.31,
+   "ll_null_c": -6.02,
+   "ll_affine": -7.93,
+   "margin": 1.4
+  },
+  {
+   "r2_km": 0.741,
+   "r2_affine": 0.698,
+   "r2_quad": 0.774,
+   "ll_km": -6.69,
+   "ll_null_a": -17.37,
+   "ll_null_c": -8.87,
+   "ll_affine": -9.42,
+   "margin": 2.48
+  },
+  {
+   "r2_km": 0.92,
+   "r2_affine": 0.912,
+   "r2_quad": 0.942,
+   "ll_km": -8.11,
+   "ll_null_a": -24.76,
+   "ll_null_c": -12.42,
+   "ll_affine": -10.81,
+   "margin": 2.54
+  },
+  {
+   "r2_km": 0.944,
+   "r2_affine": 0.771,
+   "r2_quad": 0.934,
+   "ll_km": -18.77,
+   "ll_null_a": -45.54,
+   "ll_null_c": -33.54,
+   "ll_affine": -33.96,
+   "margin": 7.59
+  }
+ ],
+ "widths": {
+  "8": {
+   "quad_wins": 12,
+   "km_wins": 12
+  },
+  "16": {
+   "quad_wins": 12,
+   "km_wins": 11
+  },
+  "32": {
+   "quad_wins": 12,
+   "km_wins": 8
+  },
+  "64": {
+   "quad_wins": 12,
+   "km_wins": 3
+  }
+ },
+ "gradient": [
+  {
+   "raw_gap": -0.0191,
+   "centred_gap": -0.0486
+  },
+  {
+   "raw_gap": -0.031,
+   "centred_gap": -0.1139
+  },
+  {
+   "raw_gap": -0.1415,
+   "centred_gap": -0.1659
+  },
+  {
+   "raw_gap": -0.0122,
+   "centred_gap": -0.0425
+  },
+  {
+   "raw_gap": 0.0032,
+   "centred_gap": -0.0052
+  },
+  {
+   "raw_gap": 0.0064,
+   "centred_gap": 0.0115
+  },
+  {
+   "raw_gap": 0.0606,
+   "centred_gap": 0.094
+  },
+  {
+   "raw_gap": -0.0083,
+   "centred_gap": -0.0165
+  },
+  {
+   "raw_gap": 0.0387,
+   "centred_gap": 0.0654
+  },
+  {
+   "raw_gap": 0.051,
+   "centred_gap": 0.0716
+  },
+  {
+   "raw_gap": 0.0461,
+   "centred_gap": 0.0705
+  },
+  {
+   "raw_gap": 0.0014,
+   "centred_gap": 0.0058
+  }
+ ]
+}
