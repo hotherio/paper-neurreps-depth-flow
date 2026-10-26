@@ -11,7 +11,7 @@ depthflow/instruments.py   the camera, the drift fits, the local estimator, the 
                            the cubic potential
 depthflow/data.py          the hidden states from Hugging Face, in the three forms the paper uses
 experiments/               one script per result, each writes results/<name>.json
-figures/                   the three figures, written to paper/figures/
+figures.py                 the three figures, written to paper/figures/
 tables.py                  the appendix tables and the numbers quoted in the text, written to paper/tables/
 results/                   the JSON files the paper was built from
 paper/                     main.tex, the class files, references.bib, figures/, tables/
@@ -43,7 +43,7 @@ is available and on the CPU otherwise. Each script then runs with `uv run python
 | `experiments/pile.py` | the Pile replication (Sections 4 and 5) | Pile ladder |
 | `experiments/positions.py` | the contests on 3.0M un-averaged positions (Sections 4 and 5) | reduced positions |
 | `experiments/noise.py` | the estimation noise of a corpus mean by occurrence count (Section 3) | 160M ladder |
-| `figures/river.py`, `figures/quadfield.py`, `figures/helm.py` | Figures 1 to 3 | 160M ladder |
+| `figures.py` | Figures 1 to 3 | 160M ladder |
 | `tables.py` | `paper/tables/*.tex` from `results/` | the results above |
 
 The scripts draw their random numbers in the order of the original runs. On the same caches they reproduce the
