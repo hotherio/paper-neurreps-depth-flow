@@ -154,7 +154,7 @@ class CubicPotential:
         return G
 
     def r2(self, Ztr, dtr, Zte, dte, ridge=1e-6, relative=False):
-        """Held-out R2 of the best gradient field; the ridge is absolute, or relative to the mean diagonal."""
+        """Held-out R2 of the best gradient field. The ridge is absolute, or relative to the mean diagonal."""
         AtA = np.zeros((self.M, self.M), np.float64)
         Aty = np.zeros(self.M, np.float64)
         for a in range(0, len(Ztr), 2000):

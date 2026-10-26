@@ -1,5 +1,5 @@
-"""Figure 2: one principal plane of layer 2, the same held-out data in three panels, the drift fitted as an affine
-map, a quadratic map and the local Kramers-Moyal estimate, with the mean actual step per bin in black."""
+"""Figure 2: the leading principal plane of layer 2 in three panels, with the drift fitted as an affine map, as a
+quadratic map and by the local Kramers-Moyal estimate, and the mean held-out step per bin in black."""
 
 import numpy as np
 from style import INK, field, mean_steps, plane, plt, save

@@ -1,5 +1,5 @@
-"""Figure 3: the transition with the largest in-plane rotation, its quadratic drift fit in the leading principal
-plane split into the gradient of the best cubic potential and the remainder."""
+"""Figure 3: the quadratic drift fit of the transition with the largest in-plane rotation, in its leading principal
+plane, split into the gradient of the best cubic potential and the remainder."""
 
 import numpy as np
 from style import MUT, field, mean_steps, plane, plt, save
@@ -37,7 +37,8 @@ def gradient(P):
 
 
 def split(z, dz, fit, score):
-    """Quadratic fit and best gradient part on the fit rows, their predictions on the score rows, gradient share."""
+    """The quadratic fit and its best gradient part on the fit rows, and the gradient share of the fit on the score
+    rows."""
     W = np.linalg.lstsq(quad(z[fit]), dz[fit], rcond=None)[0]
     c = np.linalg.lstsq(gradient(z[fit]).reshape(-1, 9), dz[fit].reshape(-1), rcond=None)[0]
     full, grad = quad(z[score]) @ W, gradient(z[score]) @ c

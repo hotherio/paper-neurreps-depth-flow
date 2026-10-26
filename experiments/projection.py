@@ -1,8 +1,8 @@
 """The projection control (Section 4, Table 4): flows that are affine at full width by construction, read through
-the same camera as the real flow. The affine arm keeps the fitted 768-d map and resamples its residuals, the
-symmetric arm keeps only the symmetric part of the map (a gradient flow at full width), the planted arm adds a
-quadratic term of known size, the cross-fitted arm predicts every training token with a map fitted on the other
-half, and the Gaussian arm replaces the current states by Gaussian draws with the real mean and covariance."""
+the same camera as the real flow. The affine arm keeps the fitted 768-d map and resamples its residuals. The
+symmetric arm keeps only the symmetric part of the map, which is a gradient flow at full width. The planted arm
+adds a quadratic term of known size. The cross-fitted arm predicts every training token with a map fitted on the
+other half. The Gaussian arm replaces the current states by Gaussian draws with the real mean and covariance."""
 
 import numpy as np
 
@@ -25,7 +25,7 @@ WIDTHS = (8, 16, 32, 64)
 
 
 def battery(Z, Z1, tr, te, pot, full=True):
-    """Quadratic against affine at every width; at 16 also the local estimator, the score gap and the rotation."""
+    """Quadratic against affine at every width, and at 16 the local estimator, the score gap and the rotation."""
     out = {}
     for D in WIDTHS:
         ra, rq = contest(Z[..., :D], Z1[..., :D], tr, te)

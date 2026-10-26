@@ -1,17 +1,17 @@
 """Hidden states of Pythia on a corpus, in the three forms the paper uses.
 
   ladder     next-token-conditioned corpus means: S[l, v] is the mean state after block l over the positions whose
-             next token is v, with the occurrence count; the last state also keeps the sum over a random half of
+             next token is v, with the occurrence count. The last state also keeps the sum over a random half of
              the occurrences, for the noise floor of Section 3
   positions  every position of the first documents, all states, in full width (the individual states of Section 4)
   reduced    every position of all documents, projected on the fly into the paper's 16-component camera
 
 Documents are the first n of the corpus longer than 400 characters, truncated at 128 tokens.
-Usage: python -m depthflow.data ladder 160m wikitext 25000
-       python -m depthflow.data ladder 160m pile 25000
-       python -m depthflow.data ladder 410m wikitext 5000
-       python -m depthflow.data positions 160m wikitext 2000
-       python -m depthflow.data reduced 160m wikitext 25000"""
+Usage: uv run python -m depthflow.data ladder 160m wikitext 25000
+       uv run python -m depthflow.data ladder 160m pile 25000
+       uv run python -m depthflow.data ladder 410m wikitext 5000
+       uv run python -m depthflow.data positions 160m wikitext 2000
+       uv run python -m depthflow.data reduced 160m wikitext 25000"""
 
 import sys
 

@@ -23,8 +23,8 @@ from depthflow.instruments import (
 
 
 def likelihood_rows(Z, tr, te, boot):
-    """Per transition at one camera: the likelihood contest of KM-full against the affine map with a full residual
-    covariance, and at seed 0 the whole likelihood table, the R2 columns and the bootstrap interval of the margin."""
+    """Per transition at one camera: the likelihood table, the margin of KM-full over the affine map with a full
+    residual covariance with its bootstrap interval, and the R2 of the three drifts."""
     rows = []
     dall = (Z[1:] - Z[:-1])[:, tr].reshape(-1, Z.shape[2])
     for l in range(len(Z) - 1):
@@ -71,8 +71,8 @@ def widths(S, mu, Vt, tr, te, D):
 
 
 def km_rollout(Z, tr, te, rng, affine=False):
-    """Held-out tokens pushed from their real first state by the fitted law, fresh noise at each step; with affine,
-    the composed affine maps are rolled out in the same loop with the same generator."""
+    """Held-out tokens pushed from their real first state by the fitted law, with fresh noise at each step. With
+    affine, the affine maps are rolled out in the same loop with the same generator."""
     x = xa = Z[0][te].copy()
     ratios = []
     for l in range(len(Z) - 1):
