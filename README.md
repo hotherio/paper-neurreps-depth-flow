@@ -7,7 +7,7 @@ Alexandre Quemy. NeurReps 2026, Proceedings track (PMLR).
 ## Layout
 
 ```
-depthflow/instruments.py   the camera, the drift fits, the local estimator, the likelihoods, the score direction,
+depthflow/instruments.py   the principal basis, the drift fits, the local estimator, the likelihoods, the score direction,
                            the cubic potential
 depthflow/data.py          the hidden states from Hugging Face, in the three forms the paper uses
 experiments/               one script per result, each writes results/<name>.json
@@ -25,7 +25,7 @@ uv run python -m depthflow.data ladder 160m wikitext 25000      # Pythia-160M on
 uv run python -m depthflow.data ladder 160m pile 25000          # the Pile replication
 uv run python -m depthflow.data ladder 410m wikitext 5000       # the Pythia-410M replication
 uv run python -m depthflow.data positions 160m wikitext 2000    # 242,000 individual states at full width
-uv run python -m depthflow.data reduced 160m wikitext 25000     # 3.0M individual states in the 16-component camera
+uv run python -m depthflow.data reduced 160m wikitext 25000     # 3.0M individual states in the 16-component basis
 ```
 
 Data lands in `data/`, about 8 GB. Set `DEPTHFLOW_DATA` to put it elsewhere. The streams run on Apple MPS when it
@@ -33,7 +33,7 @@ is available and on the CPU otherwise. Each script then runs with `uv run python
 
 | Script | What it reproduces | Needs |
 |---|---|---|
-| `experiments/ladder.py` | Table 1, Table 6, the width ladder and the neighbourhood sweep, the variance retained by the camera, the Markov test, the rollouts and their controls (Section 4) | the three ladders |
+| `experiments/ladder.py` | Table 1, Table 6, the width ladder and the neighbourhood sweep, the variance retained by the basis, the Markov test, the rollouts and their controls (Section 4) | the three ladders |
 | `experiments/density.py` | the density-gradient test and its calibration, Table 3 (Section 5, Appendix A) | 160M and 410M ladders |
 | `experiments/potential.py` | the rotational part, its controls, the ridge sensitivity, the symmetric share (Section 5) | 160M ladder |
 | `experiments/projection.py` | the projection control, Table 4 (Section 4) | 160M ladder |

@@ -1,5 +1,5 @@
 """The replication on the Pile (Sections 4 and 5): the contests at 16 components, the width ladder and the
-density-gradient test with the translation removed, on the Pile ladder with its own camera."""
+density-gradient test with the translation removed, on the Pile ladder with its own principal basis."""
 
 import numpy as np
 
@@ -7,7 +7,7 @@ from depthflow import data, save
 from depthflow.instruments import (
     affine_features,
     alignment_gap,
-    camera,
+    basis,
     contest,
     fit,
     gauss_diag_ll,
@@ -22,7 +22,7 @@ from depthflow.instruments import (
 )
 
 S = load_ladder(data("ladder_160m_pile.npz"))
-mu, Vt, tr, te, _ = camera(S)
+mu, Vt, tr, te, _ = basis(S)
 res = {"n_trajectories": int(S.shape[1]), "transitions": [], "widths": {}}
 Z = project(S, mu, Vt, 16)
 for l in range(12):

@@ -9,7 +9,7 @@ from depthflow import data, save
 from depthflow.instruments import (
     affine_features,
     alignment_gap,
-    camera,
+    basis,
     fit,
     km_drift,
     knn,
@@ -95,7 +95,7 @@ def control(D, N, tr, te, kind, ratio, seed=3):
 
 
 S = load_ladder(data("ladder_160m_wikitext.npz"))
-mu, Vt, tr, te, rng = camera(S)
+mu, Vt, tr, te, rng = basis(S)
 N = S.shape[1]
 Z = project(S, mu, Vt, 16)
 res = {"gap_16": [round(alignment_gap(score_dir(Z[l]), Z[l + 1] - Z[l], rng), 4) for l in range(12)], "gap_wide": {}}
@@ -132,7 +132,7 @@ res["ou_control"] = dict(
 print("OU control:", res["ou_control"], flush=True)
 
 S4 = load_ladder(data("ladder_410m_wikitext.npz"))
-mu4, Vt4, *_ = camera(S4)
+mu4, Vt4, *_ = basis(S4)
 Z4, r = project(S4, mu4, Vt4, 16), np.random.default_rng(0)
 res["gap_410m"] = [round(alignment_gap(score_dir(Z4[l]), Z4[l + 1] - Z4[l], r), 4) for l in range(len(Z4) - 1)]
 

@@ -4,7 +4,7 @@
              next token is v, with the occurrence count. The last state also keeps the sum over a random half of
              the occurrences, for the noise floor of Section 3
   positions  every position of the first documents, all states, in full width (the individual states of Section 4)
-  reduced    every position of all documents, projected on the fly into the paper's 16-component camera
+  reduced    every position of all documents, projected on the fly into the paper's 16-component principal basis
 
 Documents are the first n of the corpus longer than 400 characters, truncated at 128 tokens.
 Usage: uv run python -m depthflow.data ladder 160m wikitext 25000
@@ -21,7 +21,7 @@ from datasets import load_dataset
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
 from depthflow import data
-from depthflow.instruments import camera, load_ladder
+from depthflow.instruments import basis, load_ladder
 
 MODELS = {"160m": "EleutherAI/pythia-160m", "410m": "EleutherAI/pythia-410m"}
 CORPORA = {"wikitext": ("Salesforce/wikitext", "wikitext-103-raw-v1"), "pile": ("monology/pile-uncopyrighted",)}
@@ -87,7 +87,7 @@ def positions(model, corpus, n_docs, max_positions=260_000):
 
 
 def reduced(model, corpus, n_docs, width=16):
-    mu, Vt, *_ = camera(load_ladder(data(f"ladder_{model}_{corpus}.npz")))
+    mu, Vt, *_ = basis(load_ladder(data(f"ladder_{model}_{corpus}.npz")))
     P = Vt[:width].T
     Z, NX, DC = [], [], []
     for d, (hs, nxt) in enumerate(hidden_states(model, corpus, n_docs)):

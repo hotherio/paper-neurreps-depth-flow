@@ -1,6 +1,6 @@
 """The contests on the un-averaged flow (Sections 4 and 5): every position of the corpus in the paper's 16-component
-camera, split by document. The local estimator is fitted on one million training positions and scored on 200,000
-test positions, the maps on all of them, and the density-gradient test on 60,000 positions."""
+principal basis, split by document. The local estimator is fitted on one million training positions and scored on
+200,000 test positions, the maps on all of them, and the density-gradient test on 60,000 positions."""
 
 import numpy as np
 
