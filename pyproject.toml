@@ -3,7 +3,7 @@ name = "depthflow"
 version = "1.0.0"
 description = "The Depth Flow of Token Representations Is Nonlinear and Does Not Descend Its Own Density: reproduction code"
 readme = "README.md"
-license = "MIT"
+license = "0BSD"
 requires-python = ">=3.11"
 dependencies = [
     "numpy>=2.0",
