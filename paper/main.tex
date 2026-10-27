@@ -216,7 +216,7 @@ score by construction.
 \section{The flow and how we measure it}
 \label{sec:flow}
 
-This section describes the flow, the estimators for the model and the evaluation protocol. 
+This section describes the flow, the estimators for the model and the evaluation protocol. The code, the results and the figures of this paper are at \url{https://github.com/hotherio/paper-neurreps-depth-flow}.
 
 \textbf{The trajectories.} We use $25{,}000$ WikiText-103 articles
 that are longer than $400$ characters, truncated at $128$ tokens for practical reasons.
@@ -571,7 +571,7 @@ all scored on held-out tokens.
 
 
 We showed three things. First, the drift is nonlinear: the quadratic drift
-beats the linear map on Pythia-160M and Pythia-410M in a reduced state, and at full width individual states keep a nonlinear part of \crOccFwShareMed{} of their step. Only the mean trajectories are nearly affine at full width, and their curvature in the reduced state comes mostly from the reduction. Second, the drift does not
+beats the linear map on Pythia-160M and Pythia-410M in a reduced state, and at full width individual states keep a nonlinear part of \crOccFwShareMed{} of their step. Only the mean trajectories are nearly affine at full width. Second, the drift does not
 descend its own log-density: the alignment reads nothing at every
 width and on both models, against a calibrated instrument, while the
 best cubic potential shows the drift mostly descends some other
