@@ -1,5 +1,5 @@
-"""The paper's instruments: the balanced camera, the drift fits, the local estimator, the likelihoods, the score
-direction and the cubic potential. Random draws are made in the order of the original scripts so that every number
+"""The paper's instruments: the balanced principal basis, the drift fits, the local estimator, the likelihoods, the
+score direction and the cubic potential. Random draws are made in the order of the original scripts so that every number
 of the paper is reproduced to the last digit."""
 
 import itertools
@@ -14,7 +14,7 @@ def load_ladder(path, mincount=5):
     return S[:, np.where(z["cnt"] >= mincount)[0]]
 
 
-def camera(S, seed=0):
+def basis(S, seed=0):
     """Balanced principal basis (one vote per layer), pooled mean, 80/20 token split, and the generator afterwards."""
     rng = np.random.default_rng(seed)
     N = S.shape[1]

@@ -1,5 +1,5 @@
 """The projection control (Section 4, Table 4): flows that are affine at full width by construction, read through
-the same camera as the real flow. The affine arm keeps the fitted 768-d map and resamples its residuals. The
+the same principal basis as the real flow. The affine arm keeps the fitted 768-d map and resamples its residuals. The
 symmetric arm keeps only the symmetric part of the map, which is a gradient flow at full width. The planted arm
 adds a quadratic term of known size. The cross-fitted arm predicts every training token with a map fitted on the
 other half. The Gaussian arm replaces the current states by Gaussian draws with the real mean and covariance."""
@@ -11,7 +11,7 @@ from depthflow.instruments import (
     CubicPotential,
     affine_features,
     alignment_gap,
-    camera,
+    basis,
     circulation,
     contest,
     km_drift,
@@ -52,7 +52,7 @@ def battery(Z, Z1, tr, te, pot, full=True):
 
 
 S = load_ladder(data("ladder_160m_wikitext.npz"))
-mu, Vt, tr, te, _ = camera(S)
+mu, Vt, tr, te, _ = basis(S)
 N = S.shape[1]
 P = Vt[:64].astype(np.float64).T
 pot = CubicPotential(16)

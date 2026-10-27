@@ -5,7 +5,7 @@ of the linear map against row-permutation nulls."""
 import numpy as np
 
 from depthflow import data, save
-from depthflow.instruments import CubicPotential, camera, circulation, load_ladder, project
+from depthflow.instruments import CubicPotential, basis, circulation, load_ladder, project
 
 
 def row(r2f, r2g, circ):
@@ -13,7 +13,7 @@ def row(r2f, r2g, circ):
 
 
 S = load_ladder(data("ladder_160m_wikitext.npz"))
-mu, Vt, tr, te, _ = camera(S)
+mu, Vt, tr, te, _ = basis(S)
 N = S.shape[1]
 Z = project(S, mu, Vt, 16)
 pot = CubicPotential(16)

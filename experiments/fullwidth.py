@@ -1,5 +1,5 @@
 """The full-width contest (Section 4, Table 5): how much of the step is not affine, on the mean trajectories or on
-64,000 individual states, at the raw width or in the camera at a given width.
+64,000 individual states, at the raw width or in the principal basis at a given width.
 Usage: uv run python experiments/fullwidth.py means 768       uv run python experiments/fullwidth.py positions 768
 
 Per transition, four next-state arms share the real current states. The real arm is the real next states. The null
@@ -16,7 +16,7 @@ import numpy as np
 import torch
 
 from depthflow import data, save
-from depthflow.instruments import affine_features, camera, load_ladder
+from depthflow.instruments import affine_features, basis, load_ladder
 
 STATES, WIDTH = sys.argv[1], int(sys.argv[2])
 torch.set_num_threads(4)
@@ -84,7 +84,7 @@ def score(X, X1, tr, te, seed):
 
 
 rng = np.random.default_rng(11)
-mu, Vt, tr, te, _ = camera(load_ladder(data("ladder_160m_wikitext.npz")))
+mu, Vt, tr, te, _ = basis(load_ladder(data("ladder_160m_wikitext.npz")))
 if STATES == "means":
     S = load_ladder(data("ladder_160m_wikitext.npz")).astype(np.float64)
 else:

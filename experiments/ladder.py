@@ -1,6 +1,6 @@
 """The contests on the mean trajectories (Section 4, Table 1, Table 6): the per-transition likelihoods and R2 at 16
 components with bootstrap intervals and two more seeds, the width ladder on Pythia-160M and Pythia-410M with the
-matched-budget rows, the neighbourhood sweep of the local estimator, the variance retained by the camera, the
+matched-budget rows, the neighbourhood sweep of the local estimator, the variance retained by the basis, the
 Markov test, and the rollouts with their controls."""
 
 import numpy as np
@@ -8,7 +8,7 @@ import numpy as np
 from depthflow import data, save
 from depthflow.instruments import (
     affine_features,
-    camera,
+    basis,
     contest,
     fit,
     gauss_diag_ll,
@@ -23,7 +23,7 @@ from depthflow.instruments import (
 
 
 def likelihood_rows(Z, tr, te, boot):
-    """Per transition at one camera: the likelihood table, the margin of KM-full over the affine map with a full
+    """Per transition at one basis: the likelihood table, the margin of KM-full over the affine map with a full
     residual covariance with its bootstrap interval, and the R2 of the three drifts."""
     rows = []
     dall = (Z[1:] - Z[:-1])[:, tr].reshape(-1, Z.shape[2])
@@ -128,15 +128,15 @@ S = load_ladder(data("ladder_160m_wikitext.npz"))
 N = S.shape[1]
 res = {"n_trajectories": int(N), "seeds": {}}
 for seed in (0, 1, 2):
-    mu, Vt, tr, te, _ = camera(S, seed)
+    mu, Vt, tr, te, _ = basis(S, seed)
     rows = likelihood_rows(project(S, mu, Vt, 16), tr, te, np.random.default_rng(11))
     res["seeds"][seed] = dict(kmfull_beats_affinefull=sum(r["margin"] > 0 for r in rows), rows=rows)
     print(f"[seed {seed}] KM-full beats affine-full {res['seeds'][seed]['kmfull_beats_affinefull']}/12", flush=True)
 
-mu, Vt, tr, te, _ = camera(S)
+mu, Vt, tr, te, _ = basis(S)
 res["n_train"] = int(len(tr))
 S4 = load_ladder(data("ladder_410m_wikitext.npz"))
-mu4, Vt4, tr4, te4, _ = camera(S4)
+mu4, Vt4, tr4, te4, _ = basis(S4)
 res["pythia410m"] = {"n_trajectories": int(S4.shape[1]), "n_train": int(len(tr4)), "widths": {}}
 res["widths"], res["matched_budget"] = {}, {}
 sub = np.random.default_rng(99)
