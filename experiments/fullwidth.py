@@ -1,14 +1,14 @@
 """The full-width contest (Section 4, Table 5): how much of the step is not affine, on the mean trajectories or on
 64,000 individual states, at the raw width or in the camera at a given width.
-Usage: python experiments/fullwidth.py means 768       python experiments/fullwidth.py positions 768
+Usage: uv run python experiments/fullwidth.py means 768       uv run python experiments/fullwidth.py positions 768
 
-Per transition, four next-state arms share the real current states: the real next states; a null, the full-width
-affine prediction plus another state's affine residual (affine by construction); and the null plus a non-affine
-term with every affine function of the state regressed out, at 5% and 10% of the step variance. Three models are
-scored by held-out R2 of the step: ridge affine; affine plus a ridge on 2048 random GELU features of the residual;
-affine plus a 1024-unit GELU network on the residual. The ridge strengths and the network's stopping point come
-from a tenth of the training states. The non-affine share of the real flow is its gain over the null, divided by
-the recovered fraction of the planted term."""
+Per transition, four next-state arms share the real current states. The real arm is the real next states. The null
+is the full-width affine prediction plus another state's affine residual, which is affine by construction. The two
+planted arms add to the null a non-affine term, with every affine function of the state regressed out, at 5% and
+10% of the step variance. Three models are scored by held-out R2 of the step: a ridge affine map, the affine map
+plus a ridge on 2048 random GELU features of the residual, and the affine map plus a 1024-unit GELU network on the
+residual. The ridge strengths and the network's stopping point come from a tenth of the training states. The
+non-affine share of the real flow is its gain over the null, divided by the recovered fraction of the planted term."""
 
 import sys
 

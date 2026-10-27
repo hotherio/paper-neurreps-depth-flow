@@ -52,8 +52,8 @@ def local_cov_times(Ztr, dtr, Zte, g, k=64, shrink=0.1):
 
 def sign_test(X, X1, tr, te, rng, local=False):
     """The sign test and the cosine gaps of one transition, for the increment and the local mean step, each with
-    and without the common translation, with the score multiplied by the affine residual covariance, and at 16
-    components by the local Kramers-Moyal covariance."""
+    and without the common translation. The cosine gap is also read with the score multiplied by the affine
+    residual covariance and, at 16 components, by the local Kramers-Moyal covariance."""
     g = score_dir(X)[te]
     inc = X1 - X
     step = inc[tr].mean(0)
